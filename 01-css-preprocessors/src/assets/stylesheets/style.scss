@@ -1,0 +1,21 @@
+$primaryColor: green;
+
+@mixin background($repeat, $position, $size) {
+  background-repeat: $repeat;
+  background-position: $position;
+  background-size: $size;
+}
+
+body {
+  background: yellow;
+  color: $primaryColor;
+}
+
+.header-main {
+  background: red;
+  display: flex;
+}
+
+.thumbnail {
+  @include background(no-repeat, center, cover);
+}

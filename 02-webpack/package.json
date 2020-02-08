@@ -1,0 +1,26 @@
+{
+  "name": "02-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev:watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "extract-loader": "^4.0.3",
+    "file-loader": "^5.0.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
